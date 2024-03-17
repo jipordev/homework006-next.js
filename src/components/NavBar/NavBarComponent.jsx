@@ -19,7 +19,7 @@ export default function NavBarComponent() {
         <Link className='text-gray-300 hover:text-white text-lg mx-[20px]' href="/course">Course</Link>
         <Link className='text-gray-300 hover:text-white text-lg mx-[20px]' href="/itnews">IT news</Link>
         <Link className='text-gray-300 hover:text-white text-lg mx-[20px]' href="/jobopportunity">Job Opportunity</Link>
-        <Link className='text-gray-300 hover:text-white text-lg mx-[20px]' href="/jobopportunity">About Us</Link>
+        <Link className='text-gray-300 hover:text-white text-lg mx-[20px]' href="/aboutus">About Us</Link>
       </Navbar.Collapse>
     </Navbar>
     </>

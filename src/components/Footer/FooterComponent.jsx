@@ -4,6 +4,7 @@
 import { Footer } from 'flowbite-react';
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 import IstadLogoFooter from '../Logo/CstadLogoFooterComponent';
+import { FaFacebook, FaInstagram, FaTwitter, FaGithub} from "react-icons/fa"
 
 function FooterComponent() {
   return (
@@ -40,13 +41,12 @@ function FooterComponent() {
         </div>
         <Footer.Divider />
         <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <Footer.Copyright href="#" by="Flowbite™" year={2022} />
+          <Footer.Copyright className='text-white'  href="#" by="Flowbite™" year={2024} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <Footer.Icon className='text' href="#" icon={BsFacebook} />
-            <Footer.Icon href="#" icon={BsInstagram} />
-            <Footer.Icon href="#" icon={BsTwitter} />
-            <Footer.Icon href="#" icon={BsGithub} />
-            <Footer.Icon href="#" icon={BsDribbble} />
+            <Footer.Icon className='text-white' href="#" icon={FaFacebook} />
+            <Footer.Icon className='text-white' href="#" icon={FaInstagram} />
+            <Footer.Icon className='text-white' href="#" icon={FaTwitter} />
+            <Footer.Icon className='text-white' href="#" icon={FaGithub} />
           </div>
         </div>
       </div>
